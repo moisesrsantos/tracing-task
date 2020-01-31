@@ -30,15 +30,15 @@ python main.py
 
 ## Team
 
-[Mateus Carvalho]()
+[Mateus Carvalho](http://lattes.cnpq.br/2756606178387194)
 
 [Moisés Santos](https://github.com/moisesrsantos)
 
-[Eduardo Souza]()
+[Eduardo Souza](http://lattes.cnpq.br/9117085622535569)
 
-[Lucas Silva]()
+[Lucas Silva](http://lattes.cnpq.br/6705692071878970)
 
-[Paulo Almeida]()*Project Coordinator
+[Paulo Almeida](http://lattes.cnpq.br/0035213619257246) (Project Coordinator)
 
 
 ## Cite Us
