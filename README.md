@@ -1,4 +1,4 @@
-# Motor Practice Platform (Plataforma para Treinamento Motor) - Tracing Task
+# Motor Practice Platform - Tracing Task
 
 
 Tracing Task é uma plataforma para executar o treinamento motor de tarefa de traçado de forma automática. Esta plataforma for desenvolvida para experimentos relacionados à aprendizagem de habilidade motora.
