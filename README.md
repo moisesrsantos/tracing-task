@@ -28,7 +28,22 @@ conda activate tracing-task-env
 python main.py
 ```
 
-## Cite Us
-To cite Tracing Task platform in publications use:
-- Santos, M. R., Souza, E. D., Carvalho, M. B., Oliveira, A. C., de Almeida Neto, A., Curado, M. R., & Ribeiro, P. R. (2019, July). Machine learning to estimate the amount of training to learn a motor skill. In International Conference on Human-Computer Interaction (pp. 198-209). Springer, Cham.
+## Team
 
+[Mateus Carvalho]()
+
+[Moisés Santos](https://github.com/moisesrsantos)
+
+[Eduardo Souza]()
+
+[Lucas Silva]()
+
+[Paulo Almeida]()*
+
+* Project Coordinator
+
+## Cite Us
+
+To cite Tracing Task platform in publications use:
+
+- Santos, M. R., Souza, E. D., Carvalho, M. B., Oliveira, A. C., de Almeida Neto, A., Curado, M. R., & Ribeiro, P. R. (2019, July). Machine learning to estimate the amount of training to learn a motor skill. In International Conference on Human-Computer Interaction (pp. 198-209). Springer, Cham.
