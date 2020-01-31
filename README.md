@@ -38,9 +38,8 @@ python main.py
 
 [Lucas Silva]()
 
-[Paulo Almeida]()*
+[Paulo Almeida]()*Project Coordinator
 
-* Project Coordinator
 
 ## Cite Us
 
