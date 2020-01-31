@@ -5,6 +5,10 @@ Tracing Task é uma plataforma para executar o treinamento motor de tarefa de tr
 
 Tracing Task is a platform to automatic motor training of tracing task. This platform was designed to experiments about motor skill learning.
 
+
+![Image of Tracing Task Experiment](https://github.com/moisesrsantos/tracing-task/blob/master/image/tracing-task-trial.jpg)
+
+
 ## Installation
 
 Use the Anaconda [conda](https://www.anaconda.com/distribution/) to install.
