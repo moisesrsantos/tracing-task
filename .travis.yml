@@ -11,11 +11,11 @@ before_install:
   - conda update --yes conda --yes
   
 install:
-  - conda create -n tracing-task-env python=$TRAVIS_PYTHON_VERSION
+  - conda create -n tracing-task-env python=$TRAVIS_PYTHON_VERSION --yes
   - source activate tracing-task-env
-  - conda install -c anaconda tk
+  - conda install -c anaconda tk --yes
   - python -m pip install pygame
-  - conda install -c menpo opencv
-  - conda install -c anaconda pillow
+  - conda install -c menpo opencv --yes
+  - conda install -c anaconda pillow --yes
 script:
   - python main.py
