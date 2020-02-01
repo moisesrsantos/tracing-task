@@ -11,12 +11,13 @@ before_install:
   - conda update --yes conda --yes
   
 install:
+  - export DISPLAY=':99.0'
+  - Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
   - conda create -n tracing-task-env python=$TRAVIS_PYTHON_VERSION --yes
   - source activate tracing-task-env
   - conda install -c anaconda tk --yes
   - python -m pip install pygame
   - conda install -c menpo opencv --yes
   - conda install -c anaconda pillow --yes
-  - conda install matplotlib --yes
 script:
   - python main.py
