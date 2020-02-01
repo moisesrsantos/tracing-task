@@ -19,7 +19,7 @@ install:
   - python -m pip install pygame
   - conda install -c menpo opencv --yes
   - conda install -c anaconda pillow --yes
-  - conda install -c anaconda flake8
+  - conda install -c anaconda flake8 --yes
 
 env:
     global:
