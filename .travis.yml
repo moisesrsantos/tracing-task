@@ -1,29 +1,12 @@
 language: python
-
 python:
-    - "3.5"
-
+  - "3.5"
+cache: pip
 install:
     - python -m pip install pygame
     - pip3 install numpy
     - pip3 install opencv-contrib-python
     - pip3 install pillow
-    - pip install flake8
 
-
-env:
-    global:
-        - SOURCE_FILES=`find ./ '*.py'`
-        
 script:
-    - python3 main.py || python main.py
-   # - flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
-   # - flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
-
-notifications:
-    email:
-        on_success: never
-        on_failure: never
-
-after_success:
-  - codecov
+  - python main.py
