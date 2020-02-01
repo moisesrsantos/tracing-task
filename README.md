@@ -1,5 +1,7 @@
 # Motor Practice Platform - Tracing Task
 
+[![Build Status](https://travis-ci.org/moisesrsantos/tracing-task.svg?branch=master)](https://travis-ci.org/moisesrsantos/tracing-task)
+
 
 Tracing Task é uma plataforma para executar o treinamento motor de tarefa de traçado de forma automática. Esta plataforma for desenvolvida para experimentos relacionados à aprendizagem de habilidade motora.
 
