@@ -20,4 +20,4 @@ install:
   - conda install -c menpo opencv --yes
   - conda install -c anaconda pillow --yes
 script:
-  - python main.py
+  - timeout 10s python main.py
