@@ -1,6 +1,4 @@
-import matplotlib
-matplotlib.use('Agg')
-
+import matplotlib as mpl
 #import Tkinter as Tk
 try:
     # for Python2
@@ -10,6 +8,8 @@ except ImportError:
     import tkinter as tk ## notice lowercase 't' in tkinter here
 
 import sys, pygame, time, os
+if not os.environ.has_key('DISPLAY'):
+    mpl.use('Agg')
 from pygame.locals import *
 from datetime import datetime
 import numpy as np
