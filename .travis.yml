@@ -2,11 +2,20 @@ language: python
 python:
   - "3.5"
 cache: pip
-install:
-    - python -m pip install pygame
-    - pip3 install numpy
-    - pip3 install opencv-contrib-python
-    - pip3 install pillow
 
+before_install:
+  - wget http://repo.continuum.io/miniconda/Miniconda-latest-Linux-x86_64.sh -O miniconda.sh
+  - chmod +x miniconda.sh
+  - ./miniconda.sh -b
+  - export PATH=/home/travis/miniconda/bin:$PATH
+  - conda update --yes conda
+  
+install:
+  - conda create -n tracing-task-env python=$TRAVIS_PYTHON_VERSION
+  - source activate tracing-task-env
+  - conda install -c anaconda tk
+  - python -m pip install pygame
+  - conda install -c menpo opencv
+  - conda install -c anaconda pillow
 script:
   - python main.py
