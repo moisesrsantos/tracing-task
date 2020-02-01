@@ -17,5 +17,6 @@ install:
   - python -m pip install pygame
   - conda install -c menpo opencv --yes
   - conda install -c anaconda pillow --yes
+  - conda install matplotlib --yes
 script:
   - python main.py
