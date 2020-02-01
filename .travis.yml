@@ -19,5 +19,14 @@ install:
   - python -m pip install pygame
   - conda install -c menpo opencv --yes
   - conda install -c anaconda pillow --yes
+  - pip install frake8
+
+env:
+    global:
+        - SOURCE_FILES=`find ./ -name '*.py'`
 script:
-  - timeout 10s python main.py
+  - flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+  - flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+
+after_success:
+  - codecov
